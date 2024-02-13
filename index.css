@@ -1,0 +1,109 @@
+/* .body{
+    width: ;
+} */
+.banner-content{
+    display: inline;
+    margin: 0vw 1vw;
+
+}
+.root-div{
+    color: white;
+    font-family: Arial;
+}
+
+.banner{
+    width: 100%;
+    padding: 3vw 3vw;
+    position: sticky;
+    left: 0vh;
+    top: 0vw;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 1;
+    
+    
+}
+.banner-lhs{
+    display: flex;
+}
+.banner-rhs{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header{
+    text-align: center;
+}
+.header-title{
+    position:relative; 
+    bottom: 35vw;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    position:relative; 
+    bottom: 30vw;
+    box-sizing: content-box;
+
+}
+.tiles{
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile{
+    box-sizing: border-box;
+    width:30.5vw;
+    height: 98vh;
+    margin:1vw ;
+    overflow: hidden;
+    float: left;
+}
+.tile-image{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.tile-image:hover{
+    transform: scale(1.25);
+    transition:  0.5s;
+}
+.tile-text{
+    position:relative; 
+    bottom:95vh;
+    left: 1vw;
+    font-size: 2vw;
+    z-index: 0;
+    width: 90%;
+}
+.tile-text-heading{
+    margin:0.1vw;
+}
+.tile-text-sub-heading{
+    margin:0.1vw;
+    font-weight: 100 ;
+}
+.business-header{
+    height:50vh;
+    padding:20vw 0vw;
+    text-align: center;
+    font-family: Arial;
+}
+.get-online{
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.no-contract{
+    box-sizing: border-box;
+    margin: 10vw 0vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.thirty-day-trial{
+    width:100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
